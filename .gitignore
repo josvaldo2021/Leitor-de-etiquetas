@@ -1,0 +1,16 @@
+# Ambiente e pacote: regerados (pip install -r requirements.txt; empacotar.ps1)
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# Fotos de etiquetas (dados do dono, 16 MB) e o cache que o leitor grava ao lado delas.
+# test_cache.py usa fotos de etiquetas\ -- elas ficam so na maquina.
+etiquetas/
+.leitura_etiquetas/
+.leitura_etiquetas.json
+
+# Saidas de execucao
+*.xlsx
+*.csv
