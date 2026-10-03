@@ -47,7 +47,7 @@ quando o `versao.txt` muda. Por isso **toda publicação passa pelo script**, qu
 
 ```
 python -m venv .venv
-.venv\Scripts\python -m pip install -r requirements.txt pyinstaller
+.venv\Scripts\python -m pip install -r requirements.txt pyinstaller==6.22.3
 ```
 
 Para um modelo novo de etiqueta, acrescente os rótulos em `CAMPOS` e, se a cor vier com outro nome, a

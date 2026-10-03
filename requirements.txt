@@ -1,4 +1,6 @@
-rapidocr
-onnxruntime
-opencv-python-headless
-openpyxl
+# Versoes do pacote publicado 2026-10-03.4. Trocar qualquer uma pode mudar a leitura:
+# rode test_rolo_qilu.py e test_cache.py antes de publicar.
+rapidocr==3.9.2
+onnxruntime==1.30.0
+opencv-python-headless==5.0.0.93
+openpyxl==3.1.5
